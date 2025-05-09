@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestApplicationC++</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home Fragment</string>
+    <string name="profile">Profile Fragment</string>
+    <string name="settings">Settings Fragment</string>
+</resources>
