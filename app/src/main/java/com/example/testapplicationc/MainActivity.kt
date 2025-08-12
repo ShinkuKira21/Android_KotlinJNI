@@ -27,8 +27,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.menuHome -> fragmentHandler.replaceFragment(HomeFragment())
                 R.id.menuProfile -> fragmentHandler.replaceFragment(ProfileFragment())
                 R.id.menuSettings -> fragmentHandler.replaceFragment(SettingsFragment())
-
-                else -> { }
             }
             true
         }
