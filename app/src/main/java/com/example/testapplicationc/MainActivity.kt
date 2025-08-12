@@ -3,6 +3,7 @@ package com.example.testapplicationc
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.testapplicationc.databinding.ActivityMainBinding
+import com.example.testapplicationc.testUI.TestersFragment
 import com.example.testapplicationc.ui.HomeFragment
 import com.example.testapplicationc.ui.ProfileFragment
 import com.example.testapplicationc.ui.SettingsFragment
@@ -28,7 +29,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.menuProfile -> fragmentHandler.replaceFragment(ProfileFragment())
                 R.id.menuSettings -> fragmentHandler.replaceFragment(SettingsFragment())
 
-                else -> { }
+                // TODO: WARNING - THIS IS THE TESTER ENVIRONMENT BRANCH
+                R.id.menuTesters -> fragmentHandler.replaceFragment(TestersFragment())
             }
             true
         }
